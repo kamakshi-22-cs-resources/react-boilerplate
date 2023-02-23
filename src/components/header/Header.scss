@@ -8,11 +8,19 @@
     align-items: center;
     margin-bottom: 10px;
 
+    a{
+        text-decoration: none;
+        outline: none;
+        border: none;
+        background: none;
+        color: inherit;
+        font: inherit;
+    }
+
     .header__logo {
         flex: 1;
         padding-left: 2%;
-        font-size: 2rem;
-
+        font-size: 2rem;       
     }
 
     .header__nav {
